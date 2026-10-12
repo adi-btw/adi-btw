@@ -67,6 +67,6 @@ I'm continuing to strengthen my full-stack development and software-design skill
 ## Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adityan_Kesavan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adityan-kesavan/)
-[![Email](https://img.shields.io/badge/Email-akesava5%40uwo.ca-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akesava5@uwo.ca)
+[![Email](https://img.shields.io/badge/Email-adityan.kesavan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akesava5@uwo.ca)
 
 Thanks for visiting my profile!
