@@ -10,18 +10,24 @@ I'm a Computer Science student at Western University who enjoys turning ideas in
 
 ## Featured Projects
 
+### [Vestora](https://github.com/adi-btw/Vestora)
+
+A cross-platform stock research and paper-trading application built with React Native and TypeScript. Vestora integrates Finnhub, Alpaca, Twelve Data, and Gemini APIs to support stock quotes, historical charts, financial news, and an AI assistant. Its Supabase backend includes authenticated Edge Functions, PostgreSQL row-level security, transactional paper trading, caching, request retries, rate limiting, and quote-provider fallback.
+
+**Tech:** React Native, Expo, TypeScript, Supabase, PostgreSQL, REST APIs, TanStack Query, Zod, Gemini
+
+### [DuckSpeak](https://github.com/CSUWO/DuckSpeak)
+
+A real-time ASL recognition web application developed during HackHarvard 2025. I collaborated on the React interface and an in-browser machine-learning workflow using webcam landmarks, MediaPipe, classification models, and temporal smoothing.
+
+**Tech:** React, TypeScript, JavaScript, MediaPipe, KNN, Logistic Regression  
+**Live demo:** [duckspeak.netlify.app](https://duckspeak.netlify.app/)
+
 ### [Forge - Gym Tracker](https://github.com/adi-btw/Forge)
 
 An offline-first, cross-platform gym tracking application built with React Native, Expo, and TypeScript. Forge supports workout creation, calendar-based scheduling, live set tracking, streaks, session history, and performance analytics backed by SQLite.
 
 **Tech:** React Native, Expo, TypeScript, SQLite, Zustand, Supabase
-
-### [DuckSpeak](https://github.com/CSUWO/DuckSpeak)
-
-A real-time ASL recognition web application developed during HackHarvard. I collaborated on the React interface and an in-browser machine-learning workflow using webcam landmarks, MediaPipe, classification models, and temporal smoothing.
-
-**Tech:** React, TypeScript, JavaScript, MediaPipe, KNN, Logistic Regression  
-**Live demo:** [duckspeak.netlify.app](https://duckspeak.netlify.app/)
 
 ### [Python Music Player](https://github.com/adi-btw/Music-Player)
 
@@ -45,8 +51,11 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
