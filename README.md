@@ -30,6 +30,18 @@ A real-time ASL recognition web application developed during HackHarvard 2025. I
 **Tech:** React, TypeScript, JavaScript, MediaPipe, KNN, Logistic Regression  
 **Live demo:** [duckspeak.netlify.app](https://duckspeak.netlify.app/)
 
+### [Tales of Artemis](https://github.com/adi-btw/Tales-of-Artemis)
+
+A Java desktop typing adventure game where players defeat enemies by typing words, progress through timed levels, and compete on leaderboards. It was built as a team project for Software Engineering II at Western University, and I was responsible for all backend development: player accounts and profiles, persistent progress, score tracking and leaderboards, level progression, typing mechanics, game-state management, and parental-control logic. The game follows an MVC architecture with JSON persistence through Gson. I also wrote JUnit 5 unit tests, ran integration and system testing, and documented the design with UML diagrams and Javadoc.
+
+**Tech:** Java, Swing, Maven, Gson, JUnit 5, MVC
+
+### [Followthrough](https://github.com/adi-btw/Followthrough)
+
+A Ruby on Rails app for tracking supplement care plans. A practitioner signs in, adds patients, and writes a plan. Each patient then records doses from a private, login-free check-in link. The app calculates 7-day adherence as doses taken divided by doses expected, accounting for plan start dates and morning and evening slots. A background job flags plans that fall below 50% adherence for follow-up. It's a portfolio demo that uses only fictional data.
+
+**Tech:** Ruby, Ruby on Rails 8, SQLite, Solid Queue, Hotwire (Turbo, Stimulus), Minitest, Capybara
+
 ### [Forge - Gym Tracker](https://github.com/adi-btw/Forge)
 
 An offline-first, cross-platform gym tracking application built with React Native, Expo, and TypeScript. Forge supports workout creation, calendar-based scheduling, live set tracking, streaks, session history, and performance analytics backed by SQLite.
@@ -50,6 +62,7 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -57,6 +70,7 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 ### Frameworks, Data, and Tools
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
@@ -67,6 +81,8 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
