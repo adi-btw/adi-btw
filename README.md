@@ -10,6 +10,13 @@ I'm a Computer Science student at Western University who enjoys turning ideas in
 
 ## Featured Projects
 
+### [Gravity Gap](https://github.com/adi-btw/Gravity-Gap)
+
+A fire-prediction engine and dashboard for lunar and Martian habitats, built for the 2026 NASA Space Apps Challenge. Every fire test in NASA's Physical Sciences Informatics archive burned either in orbit (about 0 g) or on Earth (1 g), so nothing covers the Moon or Mars. Gravity Gap takes a habitat's gravity, cabin pressure, oxygen level, and vent speed, works out whether the flame is driven by buoyancy or by forced airflow (Richardson number, with Monte Carlo uncertainty), and uses models trained on 1,710 cleaned NASA combustion tests to estimate outcomes like flame extinction, each with a 90% band that widens to account for the gravity gap. When a habitat's air is too far from anything NASA tested, it returns "no evidence" and names the nearest test instead of guessing. To check itself, it hides each tested atmosphere in turn, refits, and predicts it: the 90% bands held for 208 of 222 hidden atmospheres (94%). It also ranks the experiments NASA should run next, produces a printable fire-safety briefing for each habitat, keeps a hash-committed, append-only prediction ledger, and includes an AI assistant whose answers are checked against the engine and must cite a NASA test. The site keeps working without a backend by serving precomputed results, and the project is covered by pytest, Vitest, and Playwright tests (including accessibility checks) in CI.
+
+**Tech:** Python, FastAPI, scikit-learn, SciPy, pandas, NumPy, TypeScript, Next.js, React, Tailwind CSS, Claude API, pytest, Vitest, Playwright, Docker, GitHub Actions  
+**Live demo:** [nasa-hackathon-2026-two.vercel.app](https://nasa-hackathon-2026-two.vercel.app/)
+
 ### [Triagent](https://github.com/adi-btw/triagent)
 
 An evidence-grounded incident triage system for on-call engineers. Paste an error report or log excerpt, and Triagent searches a corpus of runbooks and past incidents with hybrid retrieval (BM25 + vector), then returns a structured report: severity (SEV1–4), likely causes, and next steps. Every claim cites a retrieved passage, and the citations are checked in code. When the documents don't cover a problem, the report says so instead of guessing. An LLM agent chooses whether to draft, retry with a rewritten query, or ask a clarifying question, and a 32-case evaluation compares it with no retrieval and plain RAG: exact severity rises from 38% to 79% to 93%. A separate experiment uses QLoRA to fine-tune a 1.5B open model as a severity classifier, taking it from 28% to 88.5% on 200 held-out incidents. Citation checks and output guards cut successful prompt-injection attacks from 16 of 16 to 2 of 16. The project also includes SSE streaming, Prometheus metrics, Slack and Alertmanager integrations, a reviewer feedback loop, 448 tests, and CI.
@@ -72,6 +79,7 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -83,8 +91,10 @@ A desktop music player with MP3 playback, playlist management, seek and volume c
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 ## What I'm Working Toward
